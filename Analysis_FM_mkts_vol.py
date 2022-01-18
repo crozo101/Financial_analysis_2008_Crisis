@@ -6,7 +6,7 @@ import matplotlib as plt
 
 
 #change directory
-Data = pd.read_excel('/Users/fergie/Documents/Whole_data.xlsx')
+Data = pd.read_excel('/ --- / --- / --- /Whole_data.xlsx')
 data = Data.set_index('Date')
 
 
