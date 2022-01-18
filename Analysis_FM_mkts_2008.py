@@ -6,8 +6,8 @@ from pandas import Series, DataFrame
 import matplotlib.pyplot as plt
 
 
-Data_pre = pd.read_excel('/Users/fergie/Documents/Pre.xlsx')
-Data_post = pd.read_excel('/Users/fergie/Documents/Post.xlsx')
+Data_pre = pd.read_excel('/ --- / --- / --- /Pre.xlsx')
+Data_post = pd.read_excel('/ --- / ---/ --- /Post.xlsx')
 
 
 Data1 = Data_pre.set_index("Date")
